@@ -1,4 +1,20 @@
-### App Setup
-1. Generate a new React app using `Create-React-App`
-2. Create an Express-based project for the ***Posts*** service
-3. Create an Expressed-based project for the ***Comments*** service
+# Microservices Blog App 
+
+!Warn: This repository is still under development
+
+## Folder Structure:
+### Posts (Microservice for:)
++ Creating a Post
++ Listing all Posts
+
+### Comments (Microservice for:)
++ Creating a Comment
++ Listing all Comments
+
+
+### HTTP
+
+Path | Method | Body? | Goal
+-- | -- | -- | --
+/posts | POST | {title: string} | Create a new post
+/posts | GET | - | Retrieve all posts

@@ -1,0 +1,19 @@
+{
+  "name": "microservices-blog",
+  "version": "1.0.0",
+  "description": "1. Create a new project directory:    1. 'mkdir blog && cd blog` 2. Generate a new React app \"client\":    1. `npx create-react-app client` 3. Create an Express-based project for the ***Posts*** service 4. Create an Expressed-based project for the ***Comments*** service",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matthewfduffy/microservices-blog.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matthewfduffy/microservices-blog/issues"
+  },
+  "homepage": "https://github.com/matthewfduffy/microservices-blog#readme"
+}
